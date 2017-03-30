@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+main()
+{
+    int num=23;
+    printf("My favourite number is %d\n",num);
+    return 0;
+}
