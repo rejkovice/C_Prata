@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+// Program prosi o podanie kodu ASCII a następnie wyświetla odpowiadający mu symbol.
+int main()
+{
+    char znak;
+    printf("Prosze o podanie kodu ASCII\n");
+    scanf("%d",&znak);
+    printf("Kod ASCII %d przypisany jest do symbolu:%c",znak,znak);
+
+
+    return 0;
+}
