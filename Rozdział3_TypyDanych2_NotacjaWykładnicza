@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+//Program pobiera liczbę zmiennoprzecinkową następnie wyświetla ją w postaci ułamka dziesiętnego oraz w notacji wykłądniczej
+int main()
+{
+    float liczba;
+    printf("Prosze wpisac liczbe zmiennoprzecinkowa\n");
+    scanf("%f",&liczba);
+    printf("Podana liczba to %f a takze %e",liczba,liczba);
+
+
+
+    return 0;
+}
