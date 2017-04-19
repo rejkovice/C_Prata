@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+//Program oblicza ilosc czasteczek wody w zaleznosci od podanej ilosci litrow
+int main()
+{
+    int liczba;
+    float czasteczki=3.0e-23;
+
+    printf("Prosze wpisac liczbe litrow wody\n");
+    scanf("%d",&liczba);
+    printf("%d l wody zawiera %e czasteczek ",liczba,liczba*1000/czasteczki);
+
+
+
+    return 0;
+}
