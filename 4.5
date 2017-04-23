@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+//Program pobiera imie i nazwisko a nastepnie pod ostatnia litera imienia i nazwiska wyswietla ilosc liter poszczegolnego slowa. 
+//W drugim przypadku liczby wyswietlone sa pod pierwszymi
+
+int main()
+{
+    char imie[30];
+    char nazwisko[40];
+    printf("Prosze wpisac swoje imie i nazwisko odzielone spacja\n");
+    scanf("%s %s",imie,nazwisko);
+    printf("%*d %*d\n",strlen(imie),strlen(imie),strlen(nazwisko),strlen(nazwisko));
+    printf("%-*d %-*d\n",strlen(imie),strlen(imie),strlen(nazwisko),strlen(nazwisko));
+
+    return 0;
+}
