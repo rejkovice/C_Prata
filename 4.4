@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+//Program pobiera imie oraz wzrost podany w centymetrach nastepnie wyswietla go w metrach.
+
+int main()
+{
+    float liczba;
+    char imie[30];
+    printf("Prosze podac swoje imie:\n");
+    scanf("%s",imie);
+    printf("Prosze podac swoj wzrost w centymetrach:\n");
+    scanf("%f",&liczba);
+    printf("%s, masz %.2f m wzrostu\n",imie,liczba/100);
+
+    return 0;
+}
