@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+
+int main()
+{
+    float liczba;
+    printf("Prosze wpisac liczbe w postaci ulamka dziesietnego\n");
+    scanf("%f",&liczba);
+    printf("Podana liczba to %.2f a takze %e\n",liczba,liczba);
+    printf("Podana liczba to %+.2f a takze %E",liczba,liczba);
+    return 0;
+}
