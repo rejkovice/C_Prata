@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+
+int main()
+{
+    char slowo[30];
+    printf("Prosze wpisac slowo zawierajace do 30 znakow:\t");
+    scanf("%s",slowo);
+    printf("\"%s\"\n",slowo); // Program wyswietla pobrane slowo w cudzyslowie
+    printf("\"%20s\"\n",slowo); //Program wyswietla pobrane slowo w cudzyslowie w polu o szerokosci 20 znakow
+    printf("\"%-20s\"\n",slowo); //Program wyswietla pobrane slowo w cudzyslowie wyrownane do lewej strony w polu o szerokosci 20 znakow
+    printf("\"%*s\"\n",strlen(slowo)+3,slowo); //Program wyswietla pobrane slowo w cudzyslowie w polu o 3 znaki dluzszym niz slowo
+
+
+    return 0;
+}
